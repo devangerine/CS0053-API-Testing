@@ -9,7 +9,7 @@ This project was implemented using the following:
 | Component | Specification |
 | :--- | :--- |
 | **Programming Language** | PHP 8.2.12 and Javascript ECMAScript 2025 |
-| **Development Environment** | Visual Studio Code |
+| **Development Environment** | Visual Studio Code 1.105 |
 | **Local Webserver** | XAMPP |
 | **API Platform** | Postman |
 
