@@ -62,7 +62,7 @@ pm.test("Response is JSON", function () {
  4. Open Postman.
  5. Go to the collections tab found in around the top left corner of the Postman window.
  6. Click the ```+``` button to the right of the Collections tab and click Blank collection. Rename that collection to whatever you deem fit as this will serve as our testing ground for this project.
- ![Postman Create Collection screenshot](https://github.com/devangerine/CS0053-API-Testing/blob/main/Screenshots/Get%20Request%20-%20Result.png)
+ ![Postman Create Collection screenshot](https://github.com/devangerine/CS0053-API-Testing/blob/main/Screenshots/Postman%20Creating%20a%20Collection.png)
 
 ### 1. Testing GET request
 #### Steps
