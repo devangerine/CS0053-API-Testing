@@ -54,6 +54,12 @@ pm.test("Response is JSON", function () {
 
 **Testing this project will require that you have a local web server such as XAMPP as well as an all-in-one API platform like Postman installed.**
 
+### Preparation 
+#### Steps
+##### 1. Paste a copy of the API source code file into the ```htdocs`` subdirectory of XAMPP which can be found with this file path or wherever you installed XAMPP: ```C:\xampp\htdocs```
+##### 2. Open XAMPP.
+##### 3. Click the start button found to the right of the Apache module.
+
 ### 1. Testing GET request
 #### Steps
 ##### 1. Open Postman if not already open.
