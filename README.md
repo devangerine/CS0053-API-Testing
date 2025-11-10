@@ -67,6 +67,7 @@ pm.test("Response is JSON", function () {
  3. Paste the following URL in the provided field in postman: ```http://localhost/api.php```
  4. Click Send.
  5. Check the results found in the window below. It should return the list of users along with their respective id numbers.
+ ![GET Request Test - Result screenshot](https://github.com/devangerine/CS0053-API-Testing/blob/main/Screenshots/Get%20Request%20-%20Result.png)
 
 
 ### 2. Testing POST request
@@ -79,7 +80,7 @@ pm.test("Response is JSON", function () {
  6. Paste the following code in the input field provided below: ```raw```: ```{ "name": "Charlie" }```
  7. Click Send.
  8. Check the results found in the window below. It should return the name and id of the user you have just added.
-
+ ![POST Request Test - Result screenshot](https://github.com/devangerine/CS0053-API-Testing/blob/main/Screenshots/Push%20Request%20-%20Result.png)
 
 ### 3. Postman Tests
 #### Steps
@@ -101,6 +102,8 @@ pm.test("Response is JSON", function () {
 ```
  8. Click Send.
  9. Check the test results found in the window below. It should return PASSED Status code is 200 for and PASSED Response is JSON.
+ ![GET Request Test - Result screenshot](https://github.com/devangerine/CS0053-API-Testing/blob/main/Screenshots/Push%20Requests%20but%20with%20Postman%20Tests%20-%20Result.png)
+
 
 ## 5. Members
 **This project is a collaborative project between Drennix Jean-Roe E. Guerrero and John Dale Guiang as Team GG for CS0053 TN37**
