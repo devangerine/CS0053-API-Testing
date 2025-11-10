@@ -2,9 +2,10 @@
 
 ## 1. Program Overview
 
-This collaboration project between Drennix Guerrero and John Dale Guiang (as Team GG) that implements a simple API with GET and POST Functionality. It allows the user get the list of users The aim of this project to be able to learn how to create APIs and test them using Postman.
+This project implements a simple API with GET and POST Functionality. It allows the user get the list of users The aim of this project to be able to learn how to create APIs and test them using Postman.
 
 ## 2. API Source Code
+### API
 ```
 <?php
 header("Content-Type: application/json");
@@ -27,7 +28,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 }
 ?>
 ```
+### Test Script
+```
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
 
+pm.test("Response is JSON", function () {
+    pm.response.to.be.json;
+});
+```
 
 ## 3. Testing
 
