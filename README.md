@@ -1,4 +1,4 @@
-# Simple User API
+# Simple User API and Testing using Postman
 
 ## 1. Program Overview
 
