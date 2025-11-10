@@ -106,7 +106,7 @@ pm.test("Response is JSON", function () {
 
 
 ## 5. Members
-**This project is a collaborative project between Drennix Jean-Roe E. Guerrero and John Dale Guiang as Team GG for CS0053 TN37**
+This project is a collaborative project between **Drennix Jean-Roe E. Guerrero** and **John Dale Guiang** as **Team GG** for CS0053 TN37
 
 
 **Drennix Jean-Roe E. Guerrero** - Coding and Documentation
