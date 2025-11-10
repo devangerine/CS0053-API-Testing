@@ -2,7 +2,7 @@
 
 ## 1. Program Overview
 
-This collaboration project between Drennix Guerrero and John Dale Guiang (as Team GG) project implements a simple API with GET and POST Functionality. It allows the user get the list of users The aim of this project to be able to learn how to create APIs and test them using Postman.
+This collaboration project between Drennix Guerrero and John Dale Guiang (as Team GG) that implements a simple API with GET and POST Functionality. It allows the user get the list of users The aim of this project to be able to learn how to create APIs and test them using Postman.
 
 ## 2. API Source Code
 
