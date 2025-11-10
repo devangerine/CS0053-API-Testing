@@ -41,7 +41,7 @@ pm.test("Response is JSON", function () {
 
 ## 3. Testing
 
-The system was implemented following a modular, OOP approach, structured around three core classes: `MenuItem`, `Menu`, and `Order`.
+**Testing this project will require that you have a local web server such as XAMPP as well as an all-in-one API platform like Postman installed.**
 
 ### 1. GET
 #### Steps
