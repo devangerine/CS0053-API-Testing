@@ -5,13 +5,14 @@
 This project implements a simple API with GET and POST Functionality. It allows the user get the list of users The aim of this project to be able to learn how to create APIs and test them using Postman.
 
 ## 2. Tools Used
+This project was implemented using the following:
 | Component | Specification |
 | :--- | :--- |
 | **Programming Language** | PHP 8.2.12 and Javascript ECMAScript 2025 |
 | **Development Environment** | Visual Studio Code |
 | **Local Webserver** | XAMPP |
 | **API Platform** | Postman |
-This project was implemented using the following:
+
 
 
 ## 3. Source Codes
