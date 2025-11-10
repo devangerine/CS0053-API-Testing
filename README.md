@@ -56,7 +56,7 @@ pm.test("Response is JSON", function () {
 
 ### Preparation 
 #### Steps
-##### 1. Paste a copy of the API source code file into the ```htdocs`` subdirectory of XAMPP which can be found with this file path or wherever you installed XAMPP: ```C:\xampp\htdocs```
+##### 1. Paste a copy of the API source code file into the ```htdocs``` subdirectory of XAMPP which can be found with this file path or wherever you installed XAMPP: ```C:\xampp\htdocs```
 ##### 2. Open XAMPP.
 ##### 3. Click the start button found to the right of the Apache module.
 
