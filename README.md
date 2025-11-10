@@ -71,7 +71,7 @@ pm.test("Response is JSON", function () {
 
 ### 2. Testing POST request
 #### Steps
-##### 1. Open Postman if not already open.
+ 1. Open Postman if not already open.
 ##### 2. Make sure you are using the POST method otherwise click the dropdown and select POST before proceeding.
 ##### 3. Paste the following URL in the provided field in postman: ```http://localhost/api.php```
 ##### 4. Navigate to the Body tab found under the url input field.
