@@ -59,6 +59,10 @@ pm.test("Response is JSON", function () {
  1. Paste a copy of the API source code file into the ```htdocs``` subdirectory of XAMPP which can be found with this file path or wherever you installed XAMPP: ```C:\xampp\htdocs```
  2. Open XAMPP.
  3. Click the start button found to the right of the Apache module.
+ 4. Open Postman.
+ 5. Go to the collections tab found in around the top left corner of the Postman window.
+ 6. Click the ```+``` button to the right of the Collections tab and click Blank collection. Rename that collection to whatever you deem fit as this will serve as our testing ground for this project.
+ ![Postman Create Collection screenshot](https://github.com/devangerine/CS0053-API-Testing/blob/main/Screenshots/Get%20Request%20-%20Result.png)
 
 ### 1. Testing GET request
 #### Steps
