@@ -102,7 +102,7 @@ pm.test("Response is JSON", function () {
 ```
  8. Click Send.
  9. Check the test results found in the window below. It should return PASSED Status code is 200 for and PASSED Response is JSON.
- ![GET Request Test - Result screenshot](https://github.com/devangerine/CS0053-API-Testing/blob/main/Screenshots/Push%20Requests%20but%20with%20Postman%20Tests%20-%20Result.png)
+ ![Postman Tests - Result screenshot](https://github.com/devangerine/CS0053-API-Testing/blob/main/Screenshots/Push%20Requests%20but%20with%20Postman%20Tests%20-%20Result.png)
 
 
 ## 5. Members
