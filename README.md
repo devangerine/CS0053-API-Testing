@@ -1,30 +1,24 @@
-# Object-Oriented Food Order System
+# Simple User API
 
 ## 1. Program Overview
 
-This project implements a simple, console-based food order taking system using **Object-Oriented Programming (OOP)** principles in Python. The primary purpose of this application is to demonstrate the effective use of classes and objects to model real-world entities, specifically a menu, menu items, and a customer's order. The system allows a user to select items and quantities from a predefined menu, and it automatically calculates and outputs the total price of the order.
+This collaboration project between Drennix Guerrero and John Dale Guiang (as Team GG) project implements a simple API with GET and POST Functionality. It allows the user get the list of users The aim of this project to be able to learn how to create APIs and test them using Postman.
 
-## 2. Development Environment
+## 2. API Source Code
 
-The system was developed and tested within a sandboxed virtual machine environment.
 
-| Component | Specification |
-| :--- | :--- |
-| **Programming Language** | Python 3.11.0rc1 |
-| **Development Environment** | Command-Line Interface (CLI) in a Linux Sandbox |
-| **Key Libraries** | Standard Python Library (No external dependencies) |
 
-## 3. Implementation Process
+## 3. Testing
 
 The system was implemented following a modular, OOP approach, structured around three core classes: `MenuItem`, `Menu`, and `Order`.
 
-### Step 1: Designing the OOP Structure
+### 1. GET
 The design phase established the responsibilities for each class:
 *   **`MenuItem`**: Encapsulates the data for a single item (`name` and `price`).
 *   **`Menu`**: Acts as a container for all `MenuItem` objects and provides lookup functionality.
 *   **`Order`**: Manages the collection of items and quantities for a specific customer, and contains the logic for calculating the total cost.
 
-### Step 2: Implementing Core Classes (`MenuItem` and `Menu`)
+### 2. POST
 The `MenuItem` class was implemented with a simple `__init__` method for initialization. The `Menu` class was implemented to load a set of sample menu items into a dictionary for quick, case-insensitive lookup via the `get_item` method.
 
 ### Step 3: Implementing the `Order` Class
@@ -39,7 +33,7 @@ A `main` function was created to handle the application flow:
 5.  Error handling (using `try...except`) was implemented to catch invalid quantity inputs (non-integers) and to handle items not found on the menu.
 6.  The loop terminates when the user enters the keyword 'done', at which point the final order summary and total price are displayed.
 
-## 4. Testing & Debugging
+## 4. Members
 
 The system was tested by simulating a typical user order scenario, including successful additions and handling of invalid input.
 
